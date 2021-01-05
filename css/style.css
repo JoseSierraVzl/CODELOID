@@ -92,3 +92,23 @@
   color:#FFFFFFFF;
 }
 /*Fin de imágen del footer*/
+
+
+.animacion {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mostrarArriba{
+  animation: mostrarArriba 1.5s;
+}
+
+@keyframes mostrarArriba{
+  0%{
+    transform: translateY(-40px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+
+}
