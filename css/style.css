@@ -80,6 +80,47 @@
   color:#FFFFFFFF;
   text-align: center;
 }
+
+.background-img-1{
+  width: 100%;
+  height: 550px;
+  background-image: url("../img/imagen_1_4.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  color:#FFFFFFFF;
+  text-align: center;
+
+}
+
+.background-img-2{
+  width: 100%;
+  height: 550px;
+  background-image: url("../img/imagen_1_5.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  color:#FFFFFFFF;
+  text-align: center;
+  
+}
+.background-img-3{
+  width: 100%;
+  height: 550px;
+  background-image: url("../img/imagen_1_6.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  color:#FFFFFFFF;
+  text-align: center;
+  
+}
 /*Fin de imágen del header de servicios*/
 
 /*Imágen del footer*/
@@ -93,7 +134,7 @@
 }
 /*Fin de imágen del footer*/
 
-
+/*Animacion de Scrolling*/
 .animacion {
   opacity: 0;
   transition: all 0.5s;
@@ -112,3 +153,10 @@
   }
 
 }
+/*Fin de Animacion de Scrolling*/
+
+.servicio-web {
+  margin-top:  -50px;
+}
+
+/*Miniatura de servicio web*/
