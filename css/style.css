@@ -8,6 +8,7 @@
     box-sizing: border-box; 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    list-style:none !important;
     
 }
 
@@ -121,6 +122,19 @@
   text-align: center;
   
 }
+.background-img-4{
+  width: 100%;
+  height: 550px;
+  background-image: url("../img/imagen_1_9.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  color:#FFFFFFFF;
+  text-align: center;
+  
+}
 /*Fin de imágen del header de servicios*/
 
 /*Imágen del footer*/
@@ -160,3 +174,13 @@
 }
 
 /*Miniatura de servicio web*/
+
+/* Section de los fundadores */
+.founders{
+  margin-top: 30px;
+}
+.section-1{
+
+  background-color: #3e729a; 
+  
+}
