@@ -56,10 +56,6 @@ class TextScramble {
     }
   }
   
-  // ——————————————————————————————————————————————————
-  // Example
-  // ——————————————————————————————————————————————————
-  
   const phrases = [
     "Hola,",
     "Bienvenidos a Codeloid",
@@ -100,3 +96,26 @@ function mostrarScroll() {
   }
 }
 window.addEventListener('scroll',mostrarScroll);
+
+
+// scrolling de lado
+window.addEventListener('scroll', function(){
+
+  let animacionderecha = document.getElementById('animacionderecha')
+  let animacionizquierda = document.getElementById('animacionizquierda')
+
+  let posicionObject = animacionderecha.getBoundingClientRect().top;
+  let posicionObject2 = animacionizquierda.getBoundingClientRect().top;
+
+
+  let tamañoPantalla = window.innerHeight;
+
+  if (posicionObject < tamañoPantalla){
+    animacionderecha.style.animation = 'moverderecho 1s ease-out';
+  }
+
+  if (posicionObject2 < tamañoPantalla){
+    animacionizquierda.style.animation = 'moverizquierda 1s ease-out';
+  }
+
+})

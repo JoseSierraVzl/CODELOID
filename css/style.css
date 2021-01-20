@@ -22,6 +22,7 @@
 
 .nav-link:hover{
   color: rgb(104, 103, 103) !important;
+  background-color: rgba(63,114,155,0.5);
 }
 /*Fin de barra de navegación*/
 
@@ -196,4 +197,26 @@
 
   background-color: #3e729a; 
   
+}
+
+/*Animaciones*/
+/*derecha a izquierda*/
+@keyframes moverderecho{
+  0%{
+    transform: translate(100%);
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+/*izquierda a derecha*/
+@keyframes moverizquierda{
+  0%{
+    transform: translate(-100%);
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
