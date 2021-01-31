@@ -1,6 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
 *{
-    /*font-family: 'Montserrat', sans-serif;*/
     /*background-image: url("../img/imagen_1.jpg") ;  Foto de freestocks.org en Pexels */
     color: #212121;
     margin:0;
@@ -11,7 +10,6 @@
     list-style:none !important;
 }
 
-
 /*Alineación de texto*/
 
 /*Derecha*/
@@ -21,13 +19,9 @@
 }
 /*Izquierda*/
 .text-aling-right{
-  text-align: right
+  text-align: right;
 
 }
-
-
-
-
 /*Barra de navegación*/
 .navbar{
   background-color: white !important;
@@ -105,7 +99,7 @@
   background: #FFFF url("../img/imagen_1_6.jpg") no-repeat center;
 }
 /*Imágen del footer*/
-.footer-image {
+footer {
   width: 100%;
   height: auto;
   background: #FFFF url("../img/img_footer.jpg") no-repeat center; 
