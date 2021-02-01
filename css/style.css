@@ -9,19 +9,6 @@
     -moz-box-sizing: border-box;
     list-style:none !important;
 }
-
-/*Alineación de texto*/
-
-/*Derecha*/
-.text-aling-left{
-  text-align: left;
-
-}
-/*Izquierda*/
-.text-aling-right{
-  text-align: right;
-
-}
 /*Barra de navegación*/
 .navbar{
   background-color: white !important;
@@ -39,7 +26,6 @@
     font-size: 2.5rem !important;
   }
 }
-/*Fin de texto del header de inicio*/
 
 /*Imágen de header de inicio*/
 .parallax-image{
@@ -50,7 +36,6 @@
   background-attachment: fixed;
   background-size: cover;
 }
-/*Fin de imagen header de inicio*/
 
 .dud {
   color: #757575;
@@ -182,5 +167,33 @@ footer {
   color: #00BCD4 !important;
 }
 
-
-
+.areaTexto {
+  border-width: 0px;
+  background-color: #F1F1F1;
+  border-radius: 5px;
+}
+.areaTexto:focus { 
+    outline: none !important;
+    border-color: #2196FD;
+    box-shadow: 0 0 10px #719ECE;
+}
+.botonEnviar{
+  width: 19rem;
+  height: 4rem;
+  border-radius: 5px;
+  border-color: #2196FD;
+  overflow: none !important;
+  box-shadow: 0 0 5px;
+}
+.botonEnviar:focus{
+  box-shadow: 0 0 30px #719ECE;
+}
+input{
+  width: 15rem;
+}
+.iconLabel{
+  background-color: #0099CC;
+  width: 4rem;
+  padding: 8px 5px 8px 5px;
+  border-radius: 5px;
+}
