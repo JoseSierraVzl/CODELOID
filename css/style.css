@@ -83,14 +83,6 @@
 .background-img-3{
   background: #FFFF url("../img/imagen_1_6.jpg") no-repeat center;
 }
-/*Imágen del footer*/
-footer {
-  width: 100%;
-  height: auto;
-  background: #FFFF url("../img/img_footer.jpg") no-repeat center; 
-  background-size: cover;
-}
-
 /*Animacion de Scrolling*/
 .animacion {
   opacity: 0;
@@ -196,4 +188,31 @@ input{
   width: 4rem;
   padding: 8px 5px 8px 5px;
   border-radius: 5px;
+}
+
+/*gradientes para iconos*/
+.texto-azul{
+  background: -webkit-radial-gradient(circle at -1.5% 25.99%, #d9fdff 0, #aee6ff 16.67%, #7ecefb 33.33%, #3cb5f2 50%, #009ce9 66.67%, #0084e0 83.33%, #006ed8 100%);
+  background: radial-gradient(circle at -1.5% 25.99%, #d9fdff 0, #aee6ff 16.67%, #7ecefb 33.33%, #3cb5f2 50%, #009ce9 66.67%, #0084e0 83.33%, #006ed8 100%);
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;
+}
+
+.texto-azulverdoso{
+  background: -webkit-radial-gradient(circle at -1.5% 25.99%, #00ffff 0, #00f7ff 25%, #3cb5f2 50%, #3e78a0 75%, #304659 100%);
+  background: radial-gradient(circle at -1.5% 25.99%, #00ffff 0, #00f7ff 25%, #3cb5f2 50%, #3e78a0 75%, #304659 100%);
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;
+}
+.texto-morado{
+  background: -webkit-radial-gradient(circle at 50% -20.71%, #ff57d2 0, #ff4edb 12.5%, #f046e3 25%, #d63feb 37.5%, #b53cf2 50%, #8c3df9 62.5%, #4f40ff 75%, #0046ff 87.5%, #004bff 100%);
+  background: radial-gradient(circle at 50% -20.71%, #ff57d2 0, #ff4edb 12.5%, #f046e3 25%, #d63feb 37.5%, #b53cf2 50%, #8c3df9 62.5%, #4f40ff 75%, #0046ff 87.5%, #004bff 100%);
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;
+}
+.texto-negro{
+  background: -webkit-linear-gradient(180deg, #5c3f64 0, #4a2f5e 25%, #321f59 50%, #0a1254 75%, #000550 100%);
+  background: linear-gradient(180deg, #5c3f64 0, #4a2f5e 25%, #321f59 50%, #0a1254 75%, #000550 100%);
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;
 }
