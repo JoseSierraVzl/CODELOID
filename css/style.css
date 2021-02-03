@@ -64,7 +64,6 @@
   overflow: hidden;
   text-align: center;
 }
-
 .imagenServicios{
   background: #FFFF url("../img/imagen_1_8.jpg") no-repeat center; /* Foto de Andrea Piacquadio en Pexels  */
 }
@@ -74,13 +73,13 @@
 .imagenQuienesSomos{
   background: #FFFF url("../img/1_14.jpg") no-repeat center;
 }
-.background-img-1{
+.imagenServicioWeb{
   background: #FFFF url("../img/imagen_1_4.jpg") no-repeat center;
 }
-.background-img-2{
+.imagenServicioApp{
   background: #FFFF url("../img/imagen_1_5.jpg") no-repeat center;
 }
-.background-img-3{
+.imagenServicioMarket{
   background: #FFFF url("../img/imagen_1_6.jpg") no-repeat center;
 }
 /*Animacion de Scrolling*/
@@ -102,7 +101,6 @@
   }
 
 }
-/*Fin de Animacion de Scrolling*/
 /*derecha a izquierda*/
 @keyframes moverderecho{
   0%{
@@ -158,38 +156,6 @@
 .iconosFundadores:hover{
   color: #00BCD4 !important;
 }
-
-.areaTexto {
-  border-width: 0px;
-  background-color: #F1F1F1;
-  border-radius: 5px;
-}
-.areaTexto:focus { 
-    outline: none !important;
-    border-color: #2196FD;
-    box-shadow: 0 0 10px #719ECE;
-}
-.botonEnviar{
-  width: 19rem;
-  height: 4rem;
-  border-radius: 5px;
-  border-color: #2196FD;
-  overflow: none !important;
-  box-shadow: 0 0 5px;
-}
-.botonEnviar:focus{
-  box-shadow: 0 0 30px #719ECE;
-}
-input{
-  width: 15rem;
-}
-.iconLabel{
-  background-color: #0099CC;
-  width: 4rem;
-  padding: 8px 5px 8px 5px;
-  border-radius: 5px;
-}
-
 /*gradientes para iconos*/
 .texto-azul{
   background: -webkit-radial-gradient(circle at -1.5% 25.99%, #d9fdff 0, #aee6ff 16.67%, #7ecefb 33.33%, #3cb5f2 50%, #009ce9 66.67%, #0084e0 83.33%, #006ed8 100%);
